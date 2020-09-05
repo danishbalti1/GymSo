@@ -464,11 +464,11 @@ textarea {
   }
 
   .box1 img {
-    width: 340px;
-    height: 340px;
+    width: 300px;
+    height: 300px;
   }
   .img-info {
-    width: 340px;
+    width: 300px;
   }
   .heading-info h1 {
     font-size: 1.8rem;
@@ -489,7 +489,7 @@ textarea {
     margin-left: 0.4rem;
   }
   .contact-info p {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   textarea {
     width: 80%;
