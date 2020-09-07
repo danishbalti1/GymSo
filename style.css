@@ -413,7 +413,6 @@ textarea {
   .section-a {
     margin-top: 6rem;
     width: 100%;
-    height: 100%;
   }
   .section-a h1 {
     width: 90%;
@@ -429,7 +428,16 @@ textarea {
   }
   #section-a .container {
     grid-template-columns: 1fr;
-    padding-left: 2rem;
+    padding-left:0;
+    width:90%;
+  }
+  #section-a .container .about h1 {
+    font-size: 1.8rem;
+    margin-left: 0;
+  }
+  #section-a .container .schedule h1 {
+    font-size: 1.8rem;
+    margin-left: 0;
   }
   #section-a .container .btn2 {
     padding: 20px;
@@ -440,7 +448,16 @@ textarea {
   }
   .section-c .container {
     grid-template-columns: 1fr;
+    margin-left: 0;
+    width:80%;
   }
+  .section-c .container .about-info h1{
+    margin-left:0;
+    padding:1rem;
+    font-size:1.9rem;
+  }
+
+
   .container .images {
     flex-direction: column;
   }
@@ -462,23 +479,33 @@ textarea {
   .contact-form {
     margin-left: 1rem;
   }
-
+  .container .about-info h1 {
+    margin-left: 0;
+  }
+  .box1 {
+    width: 80%;
+  }
   .box1 img {
-    width: 270px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
   }
   .img-info {
-    width: 270px;
+    width: 100%;
+  }
+  .section-d .heading-info{
+    width:80%;
   }
   .heading-info h1 {
     font-size: 1.8rem;
+    margin-left: 0;
   }
   .heading-info h4 {
     font-size: 1.2rem;
+    margin-left: 0;
   }
   #section-contact .contact {
     flex-direction: column;
-    margin-right: 0;
+    margin-righ;
   }
   input {
     width: 80%;
