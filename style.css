@@ -3,8 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,
 body {
   font-family: "Catamaran", sans-serif;
+  scroll-behavior:smooth;
 }
 h1 {
   font-size: 2.9rem;
@@ -19,15 +21,17 @@ header {
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.7)
     ),
-    url("hero-bg.jpg") no-repeat center;
+    url("images/hero-bg.jpg") no-repeat center;
   background-size: cover;
-
   width: 100%;
   height: 100%;
 }
 .container {
   width: 90%;
   margin: auto;
+}
+.main-menu .socials i:hover{
+color:#f13141;
 }
 .main-menu {
   display: flex;
@@ -37,6 +41,7 @@ header {
   padding: 0 20px;
   align-items: center;
   align-content: center;
+  
   transition: 0.4s ease;
 }
 a {
@@ -107,6 +112,7 @@ ul.menu li a:hover {
 .section-a h4 {
   color: #555;
   letter-spacing: 2px;
+  text-align:center;
   font-weight: lighter;
   font-size: 1.4rem;
 }
@@ -193,6 +199,7 @@ ul.menu li a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
+  overflow:hidden;
   margin-bottom: 4rem;
 }
 .container img {
@@ -522,4 +529,19 @@ textarea {
   .btn3 {
     width: 90%;
   }
+}
+
+.contact-info img{
+  width:30px;
+  height: 30px;
+  margin-right: 1rem;
+ 
+}
+.fotter-bottom{
+  background: black;
+  color:white;
+  padding:1rem;
+}
+.fotter-bottom p{
+  text-align:center;
 }
